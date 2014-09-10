@@ -1,0 +1,3 @@
+# Ignore MAC OSX directory file
+*.DS_Store
+.idea
