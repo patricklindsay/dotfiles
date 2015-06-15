@@ -19,6 +19,8 @@ eval "$(rbenv init -)"
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
+alias less="less -r -f"
+
 # Aliases
 alias cgs="clear && git status"
 alias gs="git status"
@@ -35,6 +37,9 @@ alias ..='cd ..'
 alias ...='cd ../../'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
+alias run="be rails s"
+alias jobs="be rake jobs:work"
+alias gg="git grep"
 
 # Git auto-complete
 source ~/git-completion.bash
@@ -55,3 +60,6 @@ PS1='\[\033[01;32m\]\t | \[$(tput setaf 4)\]\w \[$(tput setaf 5)\]$(__git_ps1 " 
 fi
 
 export PS1
+
+# PostgreSQL
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
