@@ -18,7 +18,7 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 # Git auto-complete
-. ~/git-completion.bash
+. ~/dotfiles/git-completion.bash
 
 # Sets title of iTerm Window
 function title {
@@ -29,8 +29,8 @@ function title {
 PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
 
 # Source the git bash completion file
-if [ -f ~/.git-prompt.sh ]; then
-  . ~/.git-prompt.sh
+if [ -f ~/dotfiles/git-prompt.sh ]; then
+  . ~/dotfiles/git-prompt.sh
   GIT_PS1_SHOWDIRTYSTATE=true
   PS1='\[\033[01;32m\]\t | \[$(tput setaf 4)\]\w \[$(tput setaf 5)\]$(__git_ps1 " (%s)") \[$(tput setaf 0)\]: '
 fi
