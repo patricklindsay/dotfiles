@@ -13,8 +13,8 @@ eval "$(rbenv init -)"
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-if [ -f ~/.bash_aliases ]; then
-  . ~/.bash_aliases
+if [ -f ~/dotfiles/bash_aliases ]; then
+  . ~/dotfiles/bash_aliases
 fi
 
 # Git auto-complete
