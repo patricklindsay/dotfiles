@@ -18,6 +18,7 @@ Follow the instructions below to setup Vim
   * ```cd ~/```
   * ```ln -nfs ~/dotfiles/vim/ ~/.vim```
   * ```ln -nfs ~/dotfiles/vimrc ~/.vimrc```
+  * ```ln -nfs ~/dotfiles/gitignore_global ~/.gitignore_global```
 2. Download Vundle (Used to manage vim plugins)
   * ```git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim```
 3. Setup vim configuration
@@ -34,6 +35,7 @@ Follow the instructions below to use my custom bash_profile. Check out the file 
   * [Trailer](http://ptsochantaris.github.io/trailer/)
   * [Spectacle](https://www.spectacleapp.com/)
   * [Sequel Pro](http://www.sequelpro.com/)
+  * [PostgreSQL](http://postgresapp.com/)
   * [Zoom](https://zoom.us/)
   * [Slack](https://slack.com/)
   * [Dropbox](https://www.dropbox.com/)
