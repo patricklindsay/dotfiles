@@ -1,0 +1,16 @@
+[user]
+name = Patrick Lindsay
+email = patrick.lindsay@sage.com
+[core]
+  excludesfile = /Users/patrick.lindsay/.gitignore_global
+[alias]
+  st = status
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[pull]
+  default = current
+[push]
+  default = current
+[difftool]
+  prompt = false
+[mergetool]
+  prompt = false

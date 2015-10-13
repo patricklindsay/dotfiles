@@ -19,6 +19,7 @@ Follow the instructions below to setup Vim
   * ```ln -nfs ~/dotfiles/vim/ ~/.vim```
   * ```ln -nfs ~/dotfiles/vimrc ~/.vimrc```
   * ```ln -nfs ~/dotfiles/gitignore_global ~/.gitignore_global```
+  * ```ln -nfs ~/dotfiles/gitconfig ~/.gitconfig```
 2. Download Vundle (Used to manage vim plugins)
   * ```git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim```
 3. Setup vim configuration
