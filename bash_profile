@@ -9,6 +9,7 @@ export CC=/usr/local/bin/gcc-4.2
 export CXX=/usr/local/bin/g++-4.2
 export PATH=$HOME/bin:$PATH
 eval "$(rbenv init -)"
+eval "$(hub alias -s)"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"

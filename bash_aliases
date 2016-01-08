@@ -4,6 +4,7 @@ alias dj="bundle exec rake jobs:work"
 alias pdfs="bundle exec fuji_pdf_server start"
 alias jobs="be rake jobs:work"
 alias run="bundle exec rails s"
+alias befi="bundle exec fudge build"
 
 # Directory movement
 alias ..='cd ..'

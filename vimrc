@@ -9,27 +9,27 @@ call vundle#begin()
 " Plugins managed by Vundle
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'kien/ctrlp.vim'
-Plugin 'ervandew/supertab'
-Plugin 'scrooloose/syntastic'
-Plugin 'bling/vim-airline'
-Plugin 'sjl/badwolf'
-Plugin 'thoughtbot/vim-rspec'
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tomtom/tcomment_vim'
-Plugin 'tpope/vim-endwise'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'cakebaker/scss-syntax.vim'
-Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'idanarye/vim-merginal'
-Plugin 'fatih/vim-go'
-Plugin 'shime/vim-livedown'
-Plugin 'jdkanani/vim-material-theme'
+Plugin 'ervandew/supertab'
 Plugin 'vim-scripts/open-browser.vim'
 Plugin 'tyru/open-browser-github.vim'
 
+" Temporarily disabled these plugins as at least one was causing segfaults
+" Plugin 'kien/ctrlp.vim'
+" Plugin 'scrooloose/syntastic'
+" Plugin 'bling/vim-airline'
+" Plugin 'thoughtbot/vim-rspec'
+" Plugin 'vim-ruby/vim-ruby'
+" Plugin 'tpope/vim-rails'
+" Plugin 'tpope/vim-endwise'
+" Plugin 'kchmck/vim-coffee-script'
+" Plugin 'cakebaker/scss-syntax.vim'
+" Plugin 'ntpeters/vim-better-whitespace'
+" Plugin 'idanarye/vim-merginal'
+" Plugin 'shime/vim-livedown'
+" Plugin 'jdkanani/vim-material-theme'
+"
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
