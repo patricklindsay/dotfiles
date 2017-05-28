@@ -1,8 +1,8 @@
 [user]
 name = Patrick Lindsay
-email = patrick.lindsay@sage.com
+email = ptricklindsay@gmail.com
 [core]
-  excludesfile = /Users/patrick.lindsay/.gitignore_global
+  excludesfile = /Users/patrick/.gitignore_global
 [alias]
   st = status
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short

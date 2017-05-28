@@ -5,8 +5,8 @@ export DEFERRED_GARBAGE_COLLECTION=true
 
 export EDITOR=vim
 
-export CC=/usr/local/bin/gcc-4.2
-export CXX=/usr/local/bin/g++-4.2
+# export CC=/usr/local/bin/gcc-4.2
+# export CXX=/usr/local/bin/g++-4.2
 export PATH=$HOME/bin:$PATH
 eval "$(rbenv init -)"
 eval "$(hub alias -s)"
@@ -39,4 +39,12 @@ fi
 export PS1
 
 # PostgreSQL
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+# Local Production settings
+export SECRET_KEY_BASE="foo"
+export AWS_REGION=ap-northeast-1
+export AWS_SECRET_ACCESS_KEY=change-me
+export AWS_ACCESS_KEY_ID=change-me
+export S3_BUCKET_NAME=set-me
+export FORCE_SSL=false

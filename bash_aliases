@@ -22,3 +22,6 @@ alias g="git"
 alias c="commit"
 alias co="git checkout"
 
+alias openjs="vim app/assets/javascripts"
+alias opencon="vim app/controllers/javascripts"
+alias openstyle="vim app/assets/stylesheets"
